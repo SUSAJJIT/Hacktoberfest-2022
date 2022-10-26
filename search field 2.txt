@@ -1,0 +1,35 @@
+Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: SearchField(
+                      suggestions: const [
+                        'United States',
+                        'America',
+                        'Washington',
+                        'India',
+                        'Paris',
+                        'Jakarta',
+                        'Australia',
+                        'Lorem Ipsum'
+                      ],
+                      searchInputDecoration: InputDecoration(
+                        enabledBorder: OutlineInputBorder(
+                          borderSide:
+                              BorderSide(color: Colors.grey, width: 2.w),
+                          borderRadius: BorderRadius.circular(30.r),
+                        ),
+                        focusedBorder: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(30.r),
+                          borderSide: BorderSide(
+                              color: Color.fromARGB(255, 137, 184, 189),
+                              width: 2.w),
+                        ),
+                        fillColor: Color.fromARGB(255, 186, 231, 235),
+                        filled: true,
+                        suffixIcon: const Icon(
+                          Icons.arrow_drop_down,
+                          color: Colors.grey,
+                          size: 30,
+                        ),
+                      ),
+                    ),
+                  ),
